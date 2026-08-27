@@ -1,3 +1,3 @@
  KARMA
 
-Just a tech.
+Just a tech.):end
