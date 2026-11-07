@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <code>0xkarma13</code> · penetration tester in training · CTF player · <b>Security+ certified</b>
+  <code>0xkarma13</code> · penetration tester in training · CTF player · Security+ certified
 </p>
 
 ```console
@@ -11,7 +11,7 @@ karma@0x13:~$ cat about.txt
 
 I play CTFs because they sharpen how I think, but they are practice, not the goal.
 What I actually want is to find real problems in real systems, and help fix them.
-So I break things in labs, hunt bugs, and write down everything I learn.
+I have a solid foundation, I'm learning constantly, and I love this work.
 ```
 
 ```diff
@@ -21,41 +21,31 @@ So I break things in labs, hunt bugs, and write down everything I learn.
 
 ---
 
-## `$ sudo -l`  (what I can do)
+## `$ cat philosophy.txt`
 
 ```console
-offense     burp-suite  nmap  metasploit  sqlmap  hydra  john  gobuster  dotdotpwn
-forensics   wireshark  tcpdump  volatility  binwalk  exiftool  steghide  cyberchef
-web         sqli  xss  idor  broken-access-control  lfi  path-traversal  file-upload-rce
-crypto      aes  rsa  xor  known-plaintext  hashing  pgp
-network     tcp-ip  dns  dhcp  nat  vpn  tls
-systems     linux (kali, ubuntu)  windows
-code        python  bash  c (learning)
+Someone who knows how a system works, and how it gets defended,
+can attack it more easily and hack it better.
+
+Networking, systems, defense, offense: it's all connected.
+And if there's something to learn, I go all the way to the bottom of it.
 ```
 
 ---
 
-## `$ cat case_files.log`  (things I've cracked and written up)
+## `$ cat status.log`
 
-| Case | Platform | Category | What it took |
-|------|----------|----------|--------------|
-| Broken Access Control | TryHackMe | Web | IDOR and privilege escalation by flipping an `isadmin` param in Burp |
-| Lo-Fi | TryHackMe | Web | Path traversal / LFI through a `?page=` parameter |
-| Dreaming | TryHackMe | Web | DNS recon, fuzzing, Pluck CMS CVE-2020-29607 `.phar` upload to RCE |
-| W1seGuy | TryHackMe | Crypto | XOR known-plaintext attack |
-| Ninja Skills | TryHackMe | Linux | Finding files by attributes across the system |
-| Carnage | TryHackMe | DFIR | Malspam pcap in Wireshark: Squirrelwaffle, Qakbot, Cobalt Strike |
-| midnight_beacon | unlim.ir | Forensics | DNS beacon chunks in a pcap, base64, XOR |
-| MacroHard WeakEdge | picoCTF | Forensics | `.pptm` unpacked with binwalk, hidden folder, base64 |
-| Trivial Flag Transfer Protocol | picoCTF | Forensics | TFTP pcap, ROT13 hints, steghide |
-| Wireshark doo dooo | picoCTF | Forensics | Follow HTTP stream, ROT13 in CyberChef |
-| Sleuthkit Apprentice | picoCTF | Forensics | Disk image analysis with Sleuthkit |
-| shark on wire 1 / 2 | picoCTF | Forensics | Fake flag in UDP stream, real one hidden one char per packet |
-| wireshark-tooo-tooo | CTF | Forensics | Decoy flags in HTTP, real flag as base64 pieces in DNS |
-| WebNet0 / WebNet1 | CTF | Forensics | TLS key in Wireshark, Export Objects, exiftool |
-| MemLabs Lab 0 | MemLabs | Memory forensics | Volatility `windows.info` and first steps |
-
-Full write-ups, no flags spoiled, live in [pentest-writeups](https://github.com/0xkarma13/pentest-writeups) and [ctf-writeups](https://github.com/0xkarma13/ctf-writeups).
+```console
+[done]     bootcamp: digital forensics
+[running]  Unlim bootcamp (3 months)
+[running]  articles: Java Deserialization vulnerabilities
+[running]  CTFs (picoCTF, TryHackMe) with a write-up for each
+[running]  bug bounty on HackerOne
+[running]  coding practice: Python, C
+[next]     eJPT
+[later]    OSCP, red teaming
+[aiming]   WorldSkills, national olympiad
+```
 
 ---
 
@@ -64,16 +54,48 @@ Full write-ups, no flags spoiled, live in [pentest-writeups](https://github.com/
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#0a0a0a','primaryTextColor':'#ffffff','primaryBorderColor':'#ff1f1f','lineColor':'#ff1f1f','fontFamily':'monospace'}}}%%
 flowchart LR
-    A[Networking basics] --> B[Security+]
+    A[Networking, systems, defense] --> B[Security+]
     B --> C[CTFs and forensics]
     C --> D[Bug bounty]
-    D --> E[eJPT]
-    E --> F[OSCP]
+    C --> E[Penetration testing]
+    E --> F[eJPT]
+    F --> G[OSCP]
+    G --> H[Red teaming]
+    style A fill:#ff1f1f,stroke:#ffffff,color:#ffffff
     style B fill:#ff1f1f,stroke:#ffffff,color:#ffffff
     style C fill:#ff1f1f,stroke:#ffffff,color:#ffffff
 ```
 
 Red means done or in progress.
+
+---
+
+## `$ ls ~/scripts`
+
+```console
+I write my own scripts and small tools to understand how things really work,
+including a keylogger I built in my own lab, purely for learning.
+
+I code regularly to keep improving: Python and C now, maybe more languages later.
+```
+
+Tools I use change with every challenge, so I don't list them all here. You'll find the ones I used in each write-up, inside the repos below.
+
+---
+
+## `$ cat case_files.log`  (a few cases I'm proud of)
+
+| Case | Platform | Category | What it took |
+|------|----------|----------|--------------|
+| Dreaming | TryHackMe | Web | DNS recon, fuzzing, Pluck CMS CVE-2020-29607 `.phar` upload to RCE |
+| Broken Access Control | TryHackMe | Web | IDOR and privilege escalation by flipping an `isadmin` param in Burp |
+| Carnage | TryHackMe | DFIR | Malspam pcap in Wireshark: Squirrelwaffle, Qakbot, Cobalt Strike |
+| midnight_beacon | unlim.ir | Forensics | DNS beacon chunks in a pcap, base64, XOR |
+| W1seGuy | TryHackMe | Crypto | XOR known-plaintext attack |
+| MemLabs Lab 0 | MemLabs | Memory forensics | Volatility `windows.info` and first steps |
+
+These are just a few. **The rest of my write-ups are in the repos**, no flags spoiled:
+[pentest-writeups](https://github.com/0xkarma13/pentest-writeups) · [ctf-writeups](https://github.com/0xkarma13/ctf-writeups)
 
 ---
 
@@ -101,6 +123,16 @@ cybersecurity-knowledge-base/    research and resources
 3. Every solve gets a write-up, written in my own words.
 4. Never publish the flag, publish the thinking.
 5. Break things only where I'm allowed to.
+```
+
+---
+
+## `$ ./collaborate --open`
+
+```console
+Want to team up for CTFs, work on something together,
+or need a hand with something I might know?
+Message me anywhere below. I'm happy to help or collaborate.
 ```
 
 ---
