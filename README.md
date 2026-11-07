@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <code>0xkarma13</code> · penetration tester in training · CTF player · Security+ certified
+  <code>0xkarma13</code> · penetration tester in training · CTF player 
 </p>
 
 ```console
