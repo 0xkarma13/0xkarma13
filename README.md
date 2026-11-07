@@ -38,9 +38,8 @@ And if there's something to learn, I go all the way to the bottom of it.
 ```console
 [done]     bootcamp: digital forensics
 [running]  Unlim bootcamp (3 months)
-[running]  articles: Java Deserialization vulnerabilities
-[running]  CTFs (picoCTF, TryHackMe) with a write-up for each
-[running]  bug bounty on HackerOne
+[running]  CTFs (picoCTF, TryHackme, ...) with a write-up for each
+[running]  bug bounty on HackerOne and ...
 [running]  coding practice: Python, C
 [next]     eJPT
 [later]    OSCP, red teaming
