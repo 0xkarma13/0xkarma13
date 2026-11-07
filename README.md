@@ -140,8 +140,8 @@ Message me anywhere below. I'm happy to help or collaborate.
 
 ```console
 linkedin    in/createrkarma11
-hackerone   <your-username>
-tryhackme   <your-username>
+hackerone   <comming soon>
+tryhackme   <https://tryhackme.com/p/it.karma?utm_campaign=social_share&utm_medium=social&utm_content=profile&cardVersion=e300cbd0d213&utm_source=copy&share_date=2026-11-07&sharerId=6a22b937bc16c456b38dd55f>
 email       CreaterKarma9900@gmail.com
 ```
 
