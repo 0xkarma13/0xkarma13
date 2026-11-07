@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="KARMA" width="100%" />
+  <img src="https://raw.githubusercontent.com/0xkarma13/0xkarma13/main/banner.svg" alt="KARMA" width="100%" />
 </p>
 
 <p align="center">
